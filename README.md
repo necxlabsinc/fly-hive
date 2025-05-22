@@ -63,7 +63,7 @@ The Online Air Ticket Booking System allows users to search, select, and book ai
 
 ## 5. Deliverables
 
-* Complete UI for user and admin dashboards
+* Complete UI for user and admin dashboards (Home, About, Contact, Login/Registration)
 * RESTful APIs or GraphQL endpoints
 * Database schema and ERD
 * E-ticket PDF template
@@ -74,31 +74,31 @@ The Online Air Ticket Booking System allows users to search, select, and book ai
 
 ---
 
-## 6. Suggested Tech Stack *(can be adjusted based on preference)*
+## 6. Suggested Tech Stack
 
-* **Frontend:** React / Next.js / Vue /Svelte
-* **Backend:** Express.js / Django / Flask / Spring Boot / NestJs
-* **Database:** PostgreSQL / MySQL / MongoDB / Sqlite
-* **Authentication:** JWT / OAuth 2.0 / Session-based
-* **Deployment:** Docker, Heroku, Vercel, or AWS
-* **Payment Gateway:** Stripe / PayPal / Local options (Mpesa/ PayStack / Pesapal)
-
+* **Frontend:** React x Vite / Next.js
+* **Backend:** Express.js / Django
+* **Database:** PostgreSQL / MongoDB
+* **Authentication:** JWT / OAuth 2.0
+* **Deployment:** Render
+* **Payment Gateway:** Mpesa
 ---
 
-## 7. Timeline *(Optional)*
+## 7. Timeline
+
 
 * **Week 1:** UI Design + Authentication setup
 * **Week 2:** Flight and Booking modules + Admin panel
 * **Week 3:** Payments and notifications
 * **Week 4:** Testing + Docs + Deployment
-
 ---
 
 ## 8. Notes
 
 * Ensure compliance with aviation booking policies.
 * Consider rate-limiting, logging, and monitoring for production.
-* Use version control and branching strategy (GitFlow or similar).
+* Use version control and branching strategy.
+* Msiuane Serious Shit
 
 
 ## Teams
@@ -106,4 +106,27 @@ The Online Air Ticket Booking System allows users to search, select, and book ai
 * **Koala** - Protas & Mary
 * **Beaver** - Juliet & Collins
 * **Otter** - Magdaline & Vincent
-* **Penguin** - Lewis
+* **Penguin** - Lewis & Yvonnah
+
+
+## Tasks
+
+* **Koala** -
+* **Beaver** -
+* **Otter** -
+* **Penguin** -
+
+## NB
+
+- Update Readme After Task Completion, I will add the checklist
+
+### Contributors
+
+- [Mary Wangari](https://<add your profile>)
+- [Protas Junior](https://<add your profile>)
+- [Collins ? ](https://<add your profile>)
+- [Juliet ?](https://<add your profile>)
+- [Vincent Odhiambo](https://<add your profile>)
+- [Yvonnah Shiala](https://<add your profile>)
+- [Magdaline Mutheu](https://<add your profile>)
+- [Ephesians Lewis](https://github.com/quiesscent)
