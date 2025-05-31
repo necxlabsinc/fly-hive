@@ -1,0 +1,5 @@
+Commit -message details
+- install dependencies
+    - sweetalert2
+- created a css file(contact.css)
+- created code inside the page.tsx on the contact component
