@@ -111,10 +111,10 @@ The Online Air Ticket Booking System allows users to search, select, and book ai
 
 ## Tasks
 
-* **Koala** -
-* **Beaver** -
-* **Otter** -
-* **Penguin** -
+* **Koala** - Authentication 
+* **Beaver** - About
+* **Otter** - Contact
+* **Penguin** - Landing Page
 
 ## NB
 
@@ -128,5 +128,5 @@ The Online Air Ticket Booking System allows users to search, select, and book ai
 - [Juliet ?](https://<add your profile>)
 - [Vincent Odhiambo](https://<add your profile>)
 - [Yvonnah Shiala](https://<add your profile>)
-- [Magdaline Mutheu](https://<add your profile>)
+- [Magdaline Muthui](https://<add your profile>)
 - [Ephesians Lewis](https://github.com/quiesscent)
