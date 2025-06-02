@@ -13,16 +13,16 @@ function About() {
             Smart Travel Starts With Us
           </h3>
           <p className="text-gray-700 leading-relaxed mb-6">
-            At DreamsTours, travel is more than reaching new places—it's about
+            At Fly-hive, travel is more than reaching new places it's about
             turning every journey into unforgettable memories. Whether you
             dream of exploring Rome's ancient streets, sailing the Maldives'
-            turquoise waters, hiking the Andes, or chasing the Northern
+            turquoise waters, hiking the Andes or chasing the Northern
             Lights, we bring your bucket list to life. We specialize in
             curated, around-the-world adventures for dreamers, couples,
-            families, and solo explorers, blending comfort, culture, and
+            families and solo explorers, blending comfort, cultureand
             authenticity to match your unique travel style.
           </p>
-          <a
+          <a 
             href="#"
             className="inline-block bg-red-600 text-white font-medium px-6 py-3 rounded-lg shadow hover:bg-red-700 transition"
           >
