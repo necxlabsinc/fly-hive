@@ -105,7 +105,7 @@ The Online Air Ticket Booking System allows users to search, select, and book ai
 
 * **Koala** - Protas & Mary
 * **Beaver** - Juliet & Collins
-* **Otter** - Magdaline, Abel & Vincent
+* **Otter** - Magdaline & Abel
 * **Penguin** - Lewis & Yvonnah
 
 
