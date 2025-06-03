@@ -38,43 +38,43 @@ function Contact() {
       };
      
   return (
-    <div className="flex items-center justify-center w-full max-w-9xl min-h-screen px-5 bg-gray-400 bg-opacity-40 backdrop-blur-md">
+    <div className="flex items-center justify-center w-full max-w-9xl min-h-screen px-5 bg-white bg-opacity-40 backdrop-blur-md">
       <section className="flex items-center justify-center w-full">
         <form
          onSubmit={onSubmit}
-          className="w-full max-w-xl bg-[#f0ebeb] text-red-700 p-6 sm:p-8 rounded-lg shadow-lg"
+          className="w-full max-w-xl bg-black-text-black-700 p-6 sm:p-8 rounded-lg shadow-2xl"
       >
         <h2 className="mb-4 text-2xl font-semibold text-center sm:text-3xl">Contact Form</h2>
 
       <div className="mt-5">
-        <label className="block font-medium text-gray-700">Full Name</label>
+        <label className="block font-medium text-black-700">Full Name</label>
         <input
           name="name"
           type="text"
           placeholder="Enter your Name"
           required
-          className="w-full h-12 sm:h-[50px] mt-2 px-4 border border-gray-600 rounded-md text-gray-800 text-sm sm:text-base focus:outline-none focus:ring-2 focus:ring-red-500"
+          className="w-full h-12 sm:h-[50px] mt-2 px-4 border border-black-600 rounded-md text-black-800 text-sm sm:text-base focus:outline-none focus:ring-2 focus:ring-black-500"
         />
       </div>
 
       <div className="mt-5">
-        <label className="block font-medium text-gray-700">Email Address</label>
+        <label className="block font-medium text-black-700">Email Address</label>
         <input
           name="email"
           type="email"
           placeholder="Enter your email"
           required
-          className="w-full h-12 sm:h-[50px] mt-2 px-4 border border-gray-600 rounded-md text-gray-800 text-sm sm:text-base focus:outline-none focus:ring-2 focus:ring-red-500"
+          className="w-full h-12 sm:h-[50px] mt-2 px-4 border border-gray-600 rounded-md text-gray-800 text-sm sm:text-base focus:outline-none focus:ring-2 focus:ring-black-500"
         />
       </div>
 
       <div className="mt-5">
-        <label className="block font-medium text-gray-700">Your message</label>
+        <label className="block font-medium text-black-700">Your message</label>
         <textarea
           name="message"
           placeholder="Type your message here..."
           required
-          className="w-full h-40 sm:h-[200px] mt-2 px-4 py-2 border border-gray-600 rounded-md text-gray-800 resize-none text-sm sm:text-base focus:outline-none focus:ring-2 focus:ring-red-500"
+          className="w-full h-40 sm:h-[200px] mt-2 px-4 py-2 border border-black-600 rounded-md text-gray-800 resize-none text-sm sm:text-base focus:outline-none focus:ring-2 focus:ring-black-500"
         ></textarea>
       </div>
 
@@ -92,4 +92,5 @@ function Contact() {
 }
 
 export default Contact;
+
 
