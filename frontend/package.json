@@ -13,13 +13,21 @@
     "@heroicons/react": "^2.2.0",
     "@heroui/navbar": "^2.2.17",
     "@heroui/react": "^2.7.8",
+    "@radix-ui/react-slot": "^1.2.3",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "embla-carousel-react": "^8.6.0",
     "framer-motion": "^12.15.0",
     "lucide-react": "^0.511.0",
     "next": "15.3.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+<<<<<<< HEAD
     "react-icons": "^5.5.0",
     "swiper": "^11.2.8"
+=======
+    "tailwind-merge": "^3.3.0"
+>>>>>>> 86fd7251c04182549c06e66dd7a9d8fb037e3757
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
@@ -27,6 +35,7 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "tailwindcss": "^4",
+    "tw-animate-css": "^1.3.4",
     "typescript": "^5"
   }
 }
