@@ -1,5 +1,6 @@
 import React from "react";
-
+import Carousel from "@/components/Carousel";
+import BookingSearchBar from "@/components/BookingSearchBar";
 export default function Hero() {
   return (
     <div>
@@ -27,28 +28,8 @@ export default function Hero() {
           </div>
         </div>
       </div>
-      <h1 className="text-3xl py-6 px-7 text-center font-semibold tracking-tight text-balance text-gray-900 sm:text-7xl">
-        Get Started with Us
-      </h1>
-      <div className="max-w-[90%] mx-auto bg-white rounded-lg p-10 shadow-xl">
-        <div className="grid grid-cols-1 md:grid-cols-5 gap-4">
-          <select className="px-3 py-2 border border-gray-300 rounded-md text-gray-900">
-            <option>Day</option>
-          </select>
-          <select className="px-3 py-2 border border-gray-300 rounded-md text-gray-900">
-            <option>From</option>
-          </select>
-          <select className="px-3 py-2 border border-gray-300 rounded-md text-gray-900">
-            <option>To</option>
-          </select>
-          <select className="px-3 py-2 border border-gray-300 rounded-md text-gray-900">
-            <option>Time</option>
-          </select>
-          <button className=" rounded-md  bg-blue-600 hover:bg-blue-700 w-full text-white">
-            Search
-          </button>
-        </div>
-      </div>
+      <BookingSearchBar/>
+      <Carousel/>
     </div>
   );
 }
