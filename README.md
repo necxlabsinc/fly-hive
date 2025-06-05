@@ -111,10 +111,10 @@ The Online Air Ticket Booking System allows users to search, select, and book ai
 
 ## Tasks
 
-* **Koala** -
-* **Beaver** -
+* **Koala** - Authentication 
+* **Beaver** - About
 * **Otter** - Contact
-* **Penguin** -
+* **Penguin** - Landing Page
 
 ## NB
 
