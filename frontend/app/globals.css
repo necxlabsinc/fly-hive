@@ -23,7 +23,7 @@
 } */
 
 .card {
-  background-color: #fbf8f8;
+  
   padding: 3rem;
 }
 
@@ -33,7 +33,7 @@
 
 .card-img{
   background-color: #fff;
-  width: 21%;
+  
 }
 .card-img img {
   border-radius: 3px 3px 0 0;
@@ -42,9 +42,6 @@
 
 }
 
-.landing-providers {
-  background-color: #c4bcbc0e;
-}
 
 @theme inline {
   --radius-sm: calc(var(--radius) - 4px);

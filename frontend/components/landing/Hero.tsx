@@ -3,13 +3,13 @@ import React from "react";
 export default function Hero() {
   return (
     <div>
-      <div className="relative px-2 pt-20 lg:px-8 bg-[url('/hero-photot.jpg')] bg-no-repeat bg-cover bg-top-right landing-hero">
+      <div className="relative px-2 pt-20 lg:px-8 bg-[url('/hero-photot.jpg')] bg-no-repeat bg-cover bg-top-right  landing-hero">
         <div className="mx-auto max-w-6xl py-2 sm:py-48 lg:py-50 ">
           <div className="text-center mb-52">
             <h1 className="text-3xl font-semibold tracking-tight text-balance text-gray-900 sm:text-7xl landing-text">
               Discover the World, One Flight at a Time with Fly Hive
             </h1>
-            <p className="mt-8 text-lg font-medium text-pretty text-gray-50 sm:text-xl/8">
+            <p className="mt-8  text-lg font-medium text-pretty text-gray-50  sm:text-xl/8">
               Your ultimate destination for all things to help you celebrate &
               remember tour experiences.
             </p>
