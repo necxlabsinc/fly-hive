@@ -1,5 +1,6 @@
 import React from "react";
-
+import Carousel from "@/components/Carousel";
+import BookingSearchBar from "@/components/BookingSearchBar";
 export default function Hero() {
   return (
     <div>
@@ -16,7 +17,7 @@ export default function Hero() {
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
                 href="#"
-                className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                className="rounded-md bg-red-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
                 Get started
               </a>
@@ -27,27 +28,8 @@ export default function Hero() {
           </div>
         </div>
       </div>
-
-      <div className="max-w-[90%] mx-auto bg-white rounded-lg p-10 shadow-xl">
-        <div className="grid grid-cols-1 md:grid-cols-5 gap-4">
-          <select className="px-3 py-2 border border-gray-300 rounded-md text-gray-900">
-            <option>Day</option>
-          </select>
-          <select className="px-3 py-2 border border-gray-300 rounded-md text-gray-900">
-            <option>From</option>
-          </select>
-          <select className="px-3 py-2 border border-gray-300 rounded-md text-gray-900">
-            <option>To</option>
-          </select>
-          <select className="px-3 py-2 border border-gray-300 rounded-md text-gray-900">
-            <option>Time</option>
-          </select>
-          <button className=" rounded-md  bg-blue-600 hover:bg-blue-700 w-full text-white">
-            Search
-          </button>
-        </div>
-      </div>
-      
+      <BookingSearchBar/>
+      <Carousel/>
     </div>
   );
 }

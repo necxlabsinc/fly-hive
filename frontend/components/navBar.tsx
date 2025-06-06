@@ -14,13 +14,13 @@ export default function Navigation() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   return (
     <div className="bg-white">
-      <header className="absolute inset-x-0 top-0 z-50">
+      <header className="absolute inset-x-0 top-0 z-50 lg:py-4 lg:px-4">
         <nav
           aria-label="Global"
-          className="flex items-center justify-between p-6 lg:px-8"
+          className="flex items-center justify-between py-5 lg:rounded-full   lg:px-8 bg-white"
         >
           <div className="flex lg:flex-1">
-            <a href="#" className="-m-1.5 p-1.5">
+            <a href="#" className="-m-1.5 p-1.5 font-extrabold text-red-600 text-[20px]">
               Fly Hive
             </a>
           </div>
@@ -39,14 +39,14 @@ export default function Navigation() {
               <a
                 key={item.name}
                 href={item.href}
-                className="text-sm/6 font-semibold text-gray-900"
+                className="text-[20px] font-semibold text-gray-900"
               >
                 {item.name}
               </a>
             ))}
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-            <a href="#" className="text-sm/6 font-semibold text-gray-900">
+            <a href="#" className="text-[20px] font-semibold text-gray-900">
               Log in <span aria-hidden="true">&rarr;</span>
             </a>
           </div>
