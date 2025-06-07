@@ -1,5 +1,4 @@
 import React from "react";
-import Carousel from "@/components/Carousel";
 import BookingSearchBar from "@/components/BookingSearchBar";
 export default function Hero() {
   return (
@@ -28,8 +27,7 @@ export default function Hero() {
           </div>
         </div>
       </div>
-      <BookingSearchBar/>
-      <Carousel/>
+      <BookingSearchBar />
     </div>
   );
 }
