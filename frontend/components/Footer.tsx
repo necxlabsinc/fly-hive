@@ -3,7 +3,7 @@ import React from "react";
 export default function Footer () {
   return (
     <>
-      <footer className="bg-white-600 text-black px-6 py-10 border-1 border-t-red-600">
+      <footer className="bg-white-600 text-black px-6 py-10 border-1 border-t-red-200">
         <div className="max-w-7xl mx-auto space-y-10">
           {/* CTA Section */}
           <div className="text-center space-y-4">
@@ -33,7 +33,7 @@ export default function Footer () {
           </div>
 
           {/* Grid Footer Links */}
-          <div className="grid grid-cols-2 md:grid-cols-5 gap-8 text-sm">
+          <div className="grid grid-cols-2 md:grid-cols-5 gap-8 sm:pl-38 text-sm">
             {/* Contact */}
             <div>
               <h4 className="font-bold mb-2">Contact</h4>
@@ -94,7 +94,7 @@ export default function Footer () {
           </div>
 
           {/* Footer Bottom */}
-          <div className="border-t border-red-400 pt-6 text-xs flex flex-col md:flex-row justify-between">
+          <div className="border-t border-red-200 pt-6 text-xs flex text-center flex-col md:flex-row justify-between">
             <p>
               ©Copyright <span className="underline">flyhive.com</span> All
               rights reserved. 2025

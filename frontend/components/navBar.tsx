@@ -14,17 +14,17 @@ export default function Navigation() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   return (
     <div className="bg-white">
-      <header className="absolute inset-x-0 top-0 z-50 lg:py-4 lg:px-4">
+      <header className="absolute inset-x-0 top-0 z-50 lg:py-4  lg:px-4">
         <nav
           aria-label="Global"
           className="flex items-center justify-between py-5 lg:rounded-full   lg:px-8 bg-white"
         >
-          <div className="flex lg:flex-1">
+          <div className="flex px-3 lg:flex-1">
             <a href="#" className="-m-1.5 p-1.5 font-extrabold text-red-600 text-[20px]">
               Fly Hive
             </a>
           </div>
-          <div className="flex lg:hidden">
+          <div className="flex px-3 lg:hidden">
             <button
               type="button"
               onClick={() => setMobileMenuOpen(true)}

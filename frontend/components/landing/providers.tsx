@@ -15,20 +15,7 @@ export default function providers() {
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex laboriosam
         odit libero?
       </p>
-      <div className="flex flex-row flex-wrap gap-5 justify-center item-center m-3 w-[80%] mx-auto ">
-        {ProviderData.map((providers) => (
-          <div className="bg-gray-50  rounded-lg px-20 py-10">
-            <img
-              className="size-[120px] border-[2px] border-solid border-gray-50 rounded-[50%] object-cover shadow-sm mb-5"
-              src={providers.Img}
-              alt=""
-            />
-            
-          
-          </div>
-        ))}
-      </div>
-
+       
       <div className="my-15 bg-gray-50 py-15">
         <div className=" w-[80%] mx-auto flex flex-row  flex-wrap justify-center gap-9 ">
           {/* package1 */}
@@ -36,10 +23,10 @@ export default function providers() {
             <div>
               {/* icon */}
             <div className=" rounded-3xl flex item-center">
-              <BsStars className="text-blue-500 w-15 h-15 mb-9 ml-14"/>
+              <BsStars className="text-red-500 w-12 h-12 mb-9 ml-14"/>
             </div>
             <div>
-              <h1 className="text-bold text-black">VIP Packages</h1>
+              <h1 className=" font-bold  text-black">VIP Packages</h1>
               <p className="text-gray-500">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.{" "}
               </p>
@@ -52,10 +39,10 @@ export default function providers() {
             <div className=" w-[250px]">
               {/* icon */}
               <div className=" rounded-3xl flex item-center">
-               <FaSuitcase className="text-blue-500 w-15 h-15 mb-9 ml-14" />
+               <FaSuitcase className="text-red-500 w-12 h-12 mb-9 ml-14" />
               </div>
               <div>
-                <h1 className="text-bold text-black">Travel Packages</h1>
+                <h1 className="font-bold  text-black">Travel Packages</h1>
                 <p className="text-gray-500">
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui.
                 </p>
@@ -67,10 +54,10 @@ export default function providers() {
             <div>
                   {/* icon */}
             <div className=" rounded-3xl flex item-center">
-              <MdAirplaneTicket className="text-blue-500 w-15 h-15 ml-14 mb-9 " />
+              <MdAirplaneTicket className="text-red-500 w-12 h-12 ml-14 mb-9 " />
             </div>
             <div>
-              <h1 className="text-bold text-black">Best Price Guarantee</h1>
+              <h1 className="font-bold text-black">Best Price Guarantee</h1>
               <p className="text-gray-500">
                 Lorem ipsum, dolor sit amet consectetur adipisicing..
               </p>

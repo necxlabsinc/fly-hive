@@ -10,14 +10,14 @@ import { div } from "framer-motion/client";
 import { BsArrowUpRightCircle } from "react-icons/bs";
 import { BsArrowDownRightCircle } from "react-icons/bs";
 
-const images = ["/image.jpg", "/image2.jpg", "/image3.jpg", "/image4.jpg"];
+/* const images = ["/image.jpg", "/image2.jpg", "/image3.jpg", "/image4.jpg"]; */
 
 export default function Carousel() {
   return (
     <div className="card bg-gray-50">
       <div className=" w-full max-w-5xl mx-auto px-1 py-1">
         <h1 className="uppercase font-bold text-center">
-          A New Experience with aevery Flight
+          A New Experience with every Flight
         </h1>
         <p className="text-gray-500 text-center mb-12">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt
@@ -54,12 +54,12 @@ export default function Carousel() {
                       <span className="span-text text-lg mr-4">
                         {card.arrival}
                       </span>
-                      <img className="mx-14 inline " src="/plane-solid.svg" alt="" />
+                      <img className="mx-14 text-red-500 inline " src="/plane-solid.svg" alt="" />
                       <span className="text-lg"> {card.departure}</span>
                     </div>
-                   <BsArrowUpRightCircle className="inline"/>
-                   <span className="inline text-xs mr-28">Nrb(Nairobi)</span>
-                   <BsArrowDownRightCircle className="inline" />
+                   <BsArrowUpRightCircle className="text-blue-500 inline"/>
+                   <span className="inline  text-xs mr-28">Nrb(Nairobi)</span>
+                   <BsArrowDownRightCircle className="text-blue-500 inline" />
                    <span className="text-xs">Mb(Mombasa)</span>
                     <p className="text-xs pt-2">Total cost</p>
 
